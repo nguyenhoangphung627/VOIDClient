@@ -1,0 +1,10 @@
+VOID Client build attempt
+=========================
+
+Target: Minecraft 1.20.0 / Fabric
+Status: NOT COMPLETED IN THIS SANDBOX
+
+Reason:
+The sandbox has no working DNS/network access for services.gradle.org, so the Gradle distribution could not be bootstrapped. No claim of BUILD SUCCESSFUL is made, and no fake/placeholder mod JAR is included.
+
+The project is packaged as source and contains a portable ./gradlew bootstrap script. Run ./gradlew build in an environment with network access and the required Java runtime.
